@@ -4,57 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple hotel website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/download 1.svg" alt="Hotel logo">
-        <nav>
-            <ul>
-                <li><a href="#our hotel">Our hotel</a></li>
-                <li><a href="#rooms&rates">Rooms & rates</a></li>
-                <li><a href="#facilities">Facilities</a></li>
-                <li><a href="#contact us">Contact us</a></li>
-            </ul>
-            <button type="button"><img src="images/bi_search.svg" alt="loop icon"></button>
-        </nav>
+    <header class="page-header">
+        <div class="container">
+            <img class="header-icon" src="images/download 1.svg" alt="Hotel logo">
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li ><a class="nav-item" href="#our hotel">Our hotel</a></li>
+                    <li ><a class="nav-item" href="#rooms&rates">Rooms & rates</a></li>
+                    <li ><a class="nav-item" href="#facilities">Facilities</a></li>
+                    <li ><a class="nav-item" href="#contact us">Contact us</a></li>
+                </ul>
+                <button class="header-loop-icon" type="button"><img src="images/bi_search.svg" alt="loop icon"></button>
+            </nav>
+        </div>
+        
     </header>
+
     <main>
-        <section>
-            <ul>
-                <li>
-                    <button type="button">Select a City <img src="images/Vector.svg" alt="drop-down arrow"></button>
+        <section class="drop-down">
+            <ul class="drop-down-list">
+                <li class="drop-down-item">
+                    <button type="button">Select a City <input type="button"> <img src="images/Vector.svg" alt="drop-down arrow"> </button>
                 </li>
-                <li>
-                    <button type="button">Check In <img src="images/dashicons_calendar-alt.svg" alt="calendar icon"></button>
+                <li class="drop-down-item">
+                    <button type="button">Check In <input type="date"> <img src="images/dashicons_calendar-alt.svg" alt="calendar icon"></button>
                 </li>
-                <li>
-                    <button type="button">Check Out <img src="images/dashicons_calendar-alt.svg" alt="calendar icon"></button>
+                <li class="drop-down-item">
+                    <button type="button">Check Out <input type= "date"><img src="images/dashicons_calendar-alt.svg" alt="calendar icon"></button>
                 </li>
-                <li>
+                <li class="drop-down-item">
                     <button type="button">Check Availability</button>
                 </li>
             </ul>
         </section>
-        <section>
-            <h1 id="our hotel">Welcome to bon hotel</h1>
-            <h4>Good people. Good thinking. Good feeling.</h4>
-            <button type="button">EXPLORE</button>
+
+        <section class="hero">
+            <h1 class="hero-welcome" id="our hotel">Welcome to bon hotel</h1>
+            <h4 class="hero-tagline">Good people. Good thinking. Good feeling.</h4>
+            <button class="hero-button" type="button"><span class="hero-button-word">explore</span></button>
         </section>
-        <section>
-            <h3 id="facilities">Facilities</h3>
-            <ul>
-                <li><img src="images/dashicons_editor-kitchensink.svg" alt="kitchen icon"></li>
-                <li><img src="images/ic_twotone-pool.svg" alt="pool icon"></li>
-                <li><img src="images/clarity_wifi-solid.svg" alt="Wi-Fi icon"></li>
-                <li><img src="images/maki_fitness-centre-11.svg" alt="Gym icon"></li>
-                <li><img src="images/bx_bx-taxi.svg" alt="Taxi icon"></li>
+
+        <section class="facilities">
+            <h3 id="facilities" class="facilities-title">Facilities</h3>
+            <ul class="facilities-list">
+                <li class="facilities-list-item"><img src="images/dashicons_editor-kitchensink.svg" alt="kitchen icon">Kitchen</li>
+                <li class="facilities-list-item"><img src="images/ic_twotone-pool.svg" alt="pool icon">Pool</li>
+                <li class="facilities-list-item"><img src="images/clarity_wifi-solid.svg" alt="Wi-Fi icon">Wifi</li>
+                <li class="facilities-list-item"><img src="images/maki_fitness-centre-11.svg" alt="Gym icon">Gym</li>
+                <li class="facilities-list-item"><img src="images/bx_bx-taxi.svg" alt="Taxi icon">Taxi</li>
             </ul>
-            <ul>
-                <li>Kitchen</li>
-                <li>Pool</li>
-                <li>Wifi</li>
-                <li>Gym</li>
-                <li>Taxi</li>
+            <ul class="facilities-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </section>
         <section>

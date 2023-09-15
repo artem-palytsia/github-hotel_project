@@ -1,0 +1,168 @@
+body {
+    background: #FFF;
+    width: 1441px;
+}
+
+.page-header {
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-icon {
+    width: 151px;
+    height: 101px;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #957554;
+    list-style: none;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-loop-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: 0;
+}
+
+
+
+
+.drop-down {
+    background: #111;
+    height: 119px;
+}
+
+.drop-down-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.hero {
+    background-image: url(/images/hDbCjHNdF48.png);
+    background-color: linear-gradient(0deg, rgba(7, 7, 7, 0.22) 0%, rgba(7, 7, 7, 0.22) 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-welcome {
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.hero-tagline {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-button {
+    background-color: #DFAA5B;
+    width: 371px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.hero-button-word {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.facilities {
+    background-color: #FFF;
+    width: 1319px;
+    height: 289px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    margin-top: -130px;
+    margin-left: 61px;
+}
+
+.facilities-title {
+    text-align: center;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 41px;
+}
+
+.facilities-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.facilities-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facilities-list-item img {
+    width: 60px;
+    height: 60px;
+}
