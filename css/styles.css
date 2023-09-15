@@ -120,3 +120,49 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+
+
+.facilities {
+    background-color: #FFF;
+    width: 1319px;
+    height: 289px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    margin-top: -130px;
+    margin-left: 61px;
+}
+
+.facilities-title {
+    text-align: center;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 41px;
+}
+
+.facilities-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.facilities-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facilities-list-item img {
+    width: 60px;
+    height: 60px;
+}
