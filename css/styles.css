@@ -1,6 +1,6 @@
 body {
     background: #FFF;
-    width: 1441px;
+    width: auto;
 }
 
 .page-header {
@@ -128,7 +128,7 @@ body {
 
 .facilities {
     background-color: #FFF;
-    width: 1319px;
+    min-width: 1319px;
     height: 289px;
     border-radius: 12px;
     flex-shrink: 0;
