@@ -1,6 +1,12 @@
 body {
     background: #FFF;
-    width: auto;
+    width: 1441px;
+}
+
+:root {
+    --primary-color: #957554;
+    --secondary-color: #DFAA5B;
+    --white-color: #FFFFFF;
 }
 
 .page-header {
@@ -39,7 +45,7 @@ body {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #957554;
+    color: var(--primary-color);
     list-style: none;
     font-family: Ubuntu;
     font-size: 24px;
@@ -51,7 +57,7 @@ body {
 .header-loop-icon {
     width: 16px;
     height: 16px;
-    background: #FFF;
+    background: var(--white-color);
     border: 0;
 }
 
@@ -89,7 +95,7 @@ body {
 }
 
 .hero-welcome {
-    color: #FFF;
+    color: var(--white-color);
     font-family: Segoe UI;
     font-size: 80px;
     font-style: normal;
@@ -99,7 +105,7 @@ body {
 }
 
 .hero-tagline {
-    color: #FFF;
+    color: var(--white-color);
     font-family: Ubuntu;
     font-size: 24px;
     font-style: normal;
@@ -110,15 +116,15 @@ body {
 }
 
 .hero-button {
-    background-color: #DFAA5B;
+    background-color: var(--secondary-color);
     width: 371px;
     height: 76px;
-    flex-shrink: 0;
     border-radius: 8px;
+    border-color: transparent;
 }
 
 .hero-button-word {
-    color: #FFF;
+    color: var(--white-color);
     font-family: Ubuntu;
     font-size: 24px;
     font-style: normal;
@@ -127,34 +133,51 @@ body {
     text-transform: uppercase;
 }
 
-
-.facilities {
-    background-color: #FFF;
-    min-width: 1319px;
-    height: 289px;
-    border-radius: 12px;
-    flex-shrink: 0;
-    margin-top: -130px;
+.section {
+    margin-right: 61px;
     margin-left: 61px;
 }
 
-.facilities-title {
-    text-align: center;
-    color: #957554;
+.section-title {
+    color: var(--primary-color);
     font-family: Ubuntu;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: 41px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    padding-top: 45px;
 }
 
+section.facilities {
+    margin-top: -175px;
+    background-color: var(--white-color);
+    min-width: 1319px;
+    height: 289px;
+    border-radius: 12px;
+}
+
+/* .facilities {
+    background-color: #FFF;
+    min-width: 1319px;
+    height: 289px;
+    border-radius: 12px;
+    margin-top: -130px;
+    margin-left: 61px;
+} */
+
+
+
 .facilities-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: #957554;
+    color: var(--secondary-color);
     font-family: Ubuntu;
     font-size: 24px;
     font-style: normal;
