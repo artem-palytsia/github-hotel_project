@@ -49,17 +49,17 @@ body {
 }
 
 .nav-item {
-    display: block;
-    padding: 10px;
+    /* display: block;
+    padding: 10px; */
     text-decoration: none;
     color: var(--primary-color);
     list-style: none;
-    font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-right: 40px;
 }
+
 
 .header-loop-icon {
     width: 16px;
