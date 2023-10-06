@@ -1,5 +1,5 @@
 body {
-    background: #FFF;
+    background: var(--white-color);
     width: 1441px;
 }
 
@@ -7,6 +7,13 @@ body {
     --primary-color: #957554;
     --secondary-color: #DFAA5B;
     --white-color: #FFFFFF;
+    --black-color: #111;
+}
+
+.list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .page-header {
@@ -33,7 +40,7 @@ body {
     align-items: center; */
 }
 
-.nav-list {
+.nav {
     margin-top: 0px;
     margin-bottom: 30px;
     display: flex;
@@ -64,12 +71,12 @@ body {
 
 
 
-.drop-down {
-    background: #111;
+.section.drop-down {
+    background: var(--black-color);
     height: 119px;
 }
 
-.drop-down-list {
+.drop-down {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -102,13 +109,12 @@ body {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
+    /* margin-top: 0; */
 }
 
 .hero-tagline {
     color: var(--white-color);
-    font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-top: 0px;
@@ -125,9 +131,7 @@ body {
 
 .hero-button-word {
     color: var(--white-color);
-    font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
@@ -140,9 +144,7 @@ body {
 
 .section-title {
     color: var(--primary-color);
-    font-family: Ubuntu;
     font-size: 45px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
@@ -178,9 +180,7 @@ section.facilities {
     flex-direction: row;
     justify-content: space-around;
     color: var(--secondary-color);
-    font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -195,3 +195,4 @@ section.facilities {
     width: 60px;
     height: 60px;
 }
+
